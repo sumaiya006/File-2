@@ -1,0 +1,556 @@
+body{
+	/* border:1px solid lime; */
+	margin:0;
+	padding:0;
+	background-image:linear-gradient(40deg,LightBlue,#ccf2ff,LightBlue,#ccf2ff,LightBlue,#ccf2ff,LightBlue);
+	
+}
+.header{
+	/* border:2px solid red; */
+	height:100vh;		
+}
+.header .nav-holder{
+	/* border:2px solid blue; */
+	display:flex;
+	height:60px;
+	width:100%;
+	background:white;
+	/* overflow:hidden; */
+	
+}
+.header .nav-holder .nav-bar{
+	/* border:2px solid blue; */
+	height:60px;
+	width:50vw;
+	margin-left:23%;
+	
+}
+.header .nav-holder .nav-bar .main{
+	/* border:2px solid red; */
+	list-style:none;
+	height:30px;
+	display:flex;
+	margin-top:15px;
+	
+
+}	
+.header .nav-holder .nav-bar .main .list{
+	/* border:2px solid green; */
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-right:10px;
+	/* margin:0px 7px; */
+	padding:5px 20px;
+	color:#1940b3;
+	font-weight:600;
+	font-style: oblique;
+	
+	cursor:pointer;
+	/* transition:0.5s; */
+}
+.header .nav-holder .nav-bar .main .list:hover{
+	background-image:linear-gradient(60deg,#ccf2ff,LightBlue,#ccf2ff,LightBlue,#ccf2ff);
+	/* box-shadow:1px 1px 2px  blue; */
+	
+}
+.header .nav-holder .nav-bar .main .list a{
+	color:#1940b3;
+	text-decoration:none;
+}
+
+
+
+
+
+/* Earrings-------> */
+.header .nav-holder .nav-bar .main .list .E-list{
+	/* border:1px solid blue; */
+	position:absolute;
+	list-style:none;
+	margin-top:14%;	
+	background:white;
+	color:#1940b3;
+	box-shadow:2px 2px 2px white,2px 2px 3px #1940b3;
+	z-index:1;	
+}
+.header .nav-holder .nav-bar .main .list .E-list .sub-list1{
+	/* border:1px solid red; */
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:8px;
+	padding:2px;
+	margin-left:-30px;	
+}
+.header .nav-holder .nav-bar .main .list .E-list .sub-list1:hover{
+	/* color:LightBlue; */
+	box-shadow:2px 2px 5px #1940b3,2px 2px 5px white;
+}
+#Earrings{
+	display:none;
+}
+#E-ul:hover #Earrings{
+	display:block;
+}
+
+
+/* NECLACE---------------------------> */
+.header .nav-holder .nav-bar .main .list .N-list{
+	/* border:1px solid blue; */
+	position:absolute;
+	list-style:none;
+	margin-top:14%;	
+	background:white;
+	color:#1940b3;
+	box-shadow:2px 2px 2px white,2px 2px 3px #1940b3;
+	z-index:1;
+	
+}
+.header .nav-holder .nav-bar .main .list .N-list .sub-list2{
+	/* border:1px solid red; */
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin:8px;
+	padding:2px;
+	margin-left:-30px;	
+}
+.header .nav-holder .nav-bar .main .list .N-list .sub-list2:hover{
+	/* color:LightBlue; */
+	box-shadow:2px 2px 5px #1940b3,2px 2px 5px white;
+}
+#necklace{
+	display:none;
+}
+
+#N-ul:hover #necklace{
+	display:block;
+}
+
+
+/*Social media LOGO-------> */
+.header .nav-holder .logo{
+	/* border:1px solid lime; */
+	display:flex;
+	width:250px;
+	margin-left:7%;
+	background:#1940b3;	
+}
+.header .nav-holder .logo .logo-bar{
+	/* border:1px solid red; */
+	display:flex;
+	width:100%
+	/* height:60px; */	
+}
+
+.header .nav-holder .logo .logo-bar .fb-logo{
+	/* border:1px solid aqua; */
+	width:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	font-size:17px;
+	cursor:pointer;
+	/* box-shadow:1px 1px 2px 2px white;	 */
+}
+.header .nav-holder .logo .logo-bar .fb-logo:hover{
+	box-shadow:2px 2px 10px white,2px 2px 10px #1940b3,2px 2px 3px #1940b3;
+}
+.header .nav-holder .logo .logo-bar .insta-logo{
+	/* border:1px solid aqua; */
+	width:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	font-size:17px;
+	cursor:pointer;
+	
+}
+.header .nav-holder .logo .logo-bar .insta-logo:hover{
+	box-shadow:2px 2px 10px white,2px 2px 10px #1940b3,2px 2px 3px #1940b3;
+}
+.header .nav-holder .logo .logo-bar .twitter-logo{
+	/* border:1px solid aqua; */
+	width:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	font-size:17px;
+	cursor:pointer;
+	/* box-shadow:1px 1px 2px 2px white; */
+	
+}
+.header .nav-holder .logo .logo-bar .twitter-logo:hover{
+	box-shadow:2px 2px 10px white,2px 2px 10px #1940b3,2px 2px 3px #1940b3;
+	
+}
+.header .nav-holder .logo .logo-bar .mail-logo{
+	/* border:1px solid aqua; */
+	width:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	font-size:17px;
+	cursor:pointer;
+}
+.header .nav-holder .logo .logo-bar .mail-logo:hover{
+	box-shadow:2px 2px 10px white,2px 2px 10px #1940b3,2px 2px 3px #1940b3;
+}
+.header .nav-holder .logo .logo-bar .search-logo{
+	/* border:1px solid aqua; */
+	width:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	font-size:17px;
+	cursor:pointer;
+}
+.header .nav-holder .logo .logo-bar .search-logo:hover{
+    box-shadow:2px 2px 10px white,2px 2px 10px #1940b3,2px 2px 3px #1940b3;
+}
+
+
+/* neclace------------> */
+.header .main{
+	border:2px solid blue;
+	height:100%;
+	background-image:linear-gradient(40deg,white,transparent 3%,white,white);
+	
+}
+/* row1----------------------> */
+.header .main .row1{
+	border:1px solid red;
+	display:flex;
+	height:50%;
+	
+	
+}
+
+ .header .main .row1 .container-fluid{ 
+	/* border:2px solid blue; */
+	height:100%;
+
+	
+}
+ .header .main .row1 .container-fluid .row{
+	/* border:2px solid green;	 */
+	height:100%;
+	
+}
+
+
+.container-fluid .row .test-boot{ 
+	
+	/* border:4px solid pink;  */
+	display:inline-block;
+	position:relative;
+	padding:0px;
+	overflow:hidden;
+	height:100%;
+
+	
+}
+
+
+.container-fluid .row .test-boot .image{
+	/* border:2px solid lime; */
+	height:70%;
+	width:90%;
+	margin-left:4.5%;
+	margin-top:12%;
+	overflow:hidden;
+}	
+.container-fluid .row .test-boot .img1{
+	/* border:2px solid blue; */
+	height:70%;
+	width:90%;
+	margin-left:4.5%;
+	margin-top:14%;
+	
+	background: url(../image/gold/e1.jpg) no-repeat center center / cover;
+	
+}
+.container-fluid .row .test-boot .img2{
+	/* border:2px solid blue; */
+	height:70%;
+	width:90%;
+	margin-left:4.5%;
+	margin-top:14%;
+	
+	background: url(../image/gold/e2.jpg) no-repeat center center / cover;
+	
+}
+.container-fluid .row .test-boot .img3{
+	/* border:2px solid blue; */
+	height:70%;
+	width:90%;
+	margin-left:4.5%;
+	margin-top:14%;
+	
+	background: url(../image/gold/e3.jpg) no-repeat center center / cover;
+	
+}
+.container-fluid .row .test-boot .img4{
+	/* border:2px solid blue; */
+	height:70%;
+	width:90%;
+	margin-left:4.5%;
+	margin-top:14%;
+	
+	background: url(../image/gold/e6.jpg) no-repeat center center / 100% 100%;
+	
+}
+.container-fluid .row .test-boot .img1 .price{
+	/* border:1px solid red; */
+	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	top:0%;
+	left:-100%;
+	height:70%;
+	width:90%;
+	color:white;
+	margin-left:4.5%;
+	margin-top:14%;
+	background: rgba(0,0,0,0.5);
+	transition:1s;
+}
+.container-fluid .row .test-boot .img1:hover .price{
+	left:0%;
+	
+}
+.container-fluid .row .test-boot .img2 .price{
+	/* border:1px solid red; */
+	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	top:-100%;
+	left:0%;
+	height:70%;
+	width:90%;
+	color:white;
+	margin-left:4.5%;
+	margin-top:14%;
+	background: rgba(0,0,0,0.5);
+	transition:1s;
+}
+.container-fluid .row .test-boot .img2:hover .price{
+	top:0%;
+	
+}
+.container-fluid .row .test-boot .img3 .price{
+	/* border:1px solid red; */
+	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	bottom:-100%;
+	left:0%;
+	height:70%;
+	width:90%;
+	color:white;
+	margin-left:4.5%;
+	margin-top:14%;
+	background: rgba(0,0,0,0.5);
+	transition:1s;
+}
+.container-fluid .row .test-boot .img3:hover .price{
+	bottom:15%;
+	
+}
+
+.container-fluid .row .test-boot .img4 .price{
+	/* border:1px solid red; */
+	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	top:0px;
+	right:-100%;
+	height:70%;
+	width:90%;
+	color:white;
+	margin-left:4.5%;
+	margin-top:14%;
+	background: rgba(0,0,0,0.5);
+	transition:1s;
+}
+.container-fluid .row .test-boot .img4:hover .price{
+	right:5%;
+	
+}
+
+/* row2-------------------------> */
+
+.header .main .row2{
+	
+	border:2px solid lime;
+	display:flex;
+	height:50%;
+	overflow:hidden;
+}
+
+.header .main .row2 .container-fluid{
+	/* border:2px solid blue; */
+	height:100%;
+}
+.header .main .row2 .container-fluid .row{
+	/* border:2px solid green; */
+	height:100%;	
+}
+.container-fluid .row .test-boot1{
+	/* border:2px solid pink; */
+	display:inline-block;
+	height:100%;
+	
+}
+.container-fluid .row .test-boot1 .image{
+	border:1px solid orange;
+	position:relative;
+	height:70%;
+	margin-top:14%; 
+	/* perspective: 4000px; */
+	/* overflow:hidden; */
+}
+.container-fluid .row .test-boot1 .image .img1{
+	/* border:2px solid blue; */
+	height:100%;
+	width:100%;	
+	background: url(../image/gold/e1.jpg) no-repeat center center / cover;
+	transform:rotateY(0deg);
+	transition:all 0.5s ease-in-out 0s;
+}
+.container-fluid .row .test-boot1 .im1:hover .img1{
+	transform:rotateY(-90deg);	
+	
+}
+.container-fluid .row .test-boot1 .image .img2{ 
+	/* border:2px solid blue; */
+	height:100%;
+	width:100%;	
+	background: url(../image/gold/e2.jpg) no-repeat center center / cover;
+	transform:rotateY(0deg);
+	transition:all 0.5s ease-in-out 0s;
+
+ } 
+ .container-fluid .row .test-boot1 .im2:hover .img2{
+	transform:rotateY(90deg);	
+	
+}
+
+.container-fluid .row .test-boot1 .im3 .img3{
+	border:2px solid orange;
+	position:absolute;
+	height:100%;
+	width:100%;	
+	background: url(../image/gold/e3.jpg) no-repeat center center / cover;
+	transition: 0.3s;
+}
+.container-fluid .row .test-boot1 .im3:hover .img3{
+	transform:translateY(-43px);
+	
+}
+.container-fluid .row .test-boot1 .image .img4{
+	border:2px solid blue;
+	height:100%;
+	width:100%;	
+	background: url(../image/gold/e6.jpg) no-repeat center center / cover;
+}
+.container-fluid .row .test-boot1 .im1 .price{
+	/* border:2px solid red; */
+	position:absolute;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	top:0%;
+	height:100%;
+	width:100%;
+	background: rgba(0,0,0,0.3);
+	color:white;
+	font-weight:bold;
+	transform:rotateY(90deg);
+	transition:all 0.5s ease-in-out 0s;	
+}
+.container-fluid .row .test-boot1 .im1:hover .price{
+	transform:rotateY(0deg);
+}
+
+.container-fluid .row .test-boot1 .im2 .price{
+	/* border:2px solid lime; */
+	position:absolute;
+	top:0%;
+	left:0%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100%;
+	width:100%;
+	background: rgba(0,0,0,0.3);
+	color:white;
+	font-weight:bold;
+	transform:rotateY(90deg);
+	transition:all 0.5s ease-in-out 0s;	
+}
+.container-fluid .row .test-boot1 .im2:hover .price{
+	transform:rotateY(0deg);
+}
+.container-fluid .row .test-boot1 .im3 .price{
+	border:1spx solid red;
+	position:absolute;
+	top:-150%;
+	left:0%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	color:white;
+	height:100%;
+	width:100%;
+	
+	transition:all 0.4s ease-in-out 0s;
+}
+.container-fluid .row .test-boot1 .im3 .price .pr{
+	/* border:1px solid green; */
+	position:absolute;
+	background: rgba(0,0,0,0.5);
+	display:flex;
+	justify-content:center;
+	width:50%;
+	margin-top:60%;
+	
+}
+.container-fluid .row .test-boot1 .im3:hover .price{
+	top:0%;
+	
+}
+.container-fluid .row .test-boot1 .im4{
+	
+	overflow:hidden;
+}
+.container-fluid .row .test-boot1 .im4 .price{
+	border:1px solid red;
+	position:absolute;
+	top:-100%;
+	left:-100%;
+	height:100%;
+	width:100%;
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background: rgba(0,0,0,0.5);
+	/* transform:translate(50px,50px) */
+	transition:all 0.6s ease-in-out 0s;
+}
+.container-fluid .row .test-boot1 .im4:hover .price{
+	/* left:0%; */
+	transform:translate(305px,225px)
+}
